@@ -32,7 +32,7 @@ mlua = { version = "0.9.9", default-features = false, features = ["lua54", "send
 no-proxy = { version  = "0.3.4", default-features = false, features = ["serialize"] }
 once_cell = { version = "1.19", default-features = false }
 ordered-float = { version = "4.2.2", default-features = false }
-openssl = { version = "0.10.66", default-features = false, features = ["vendored"] }
+openssl = { version = "0.10.72", default-features = false, features = ["vendored"] }
 parking_lot = { version = "0.12.3", default-features = false }
 pin-project.workspace = true
 proptest = { version = "1.5", optional = true }
@@ -47,7 +47,7 @@ serde_with = { version = "3.9.0", default-features = false, features = ["std", "
 smallvec = { version = "1", default-features = false, features = ["serde", "const_generics"] }
 snafu = { version = "0.7.5", default-features = false }
 socket2 = { version = "0.5.7", default-features = false }
-tokio = { version = "1.39.3", default-features = false, features = ["net"] }
+tokio = { version = "1.43.1", default-features = false, features = ["net"] }
 tokio-openssl = { version = "0.6.4", default-features = false }
 tokio-stream = { version = "0.1", default-features = false, features = ["time"], optional = true }
 tokio-util = { version = "0.7.0", default-features = false, features = ["time"] }
